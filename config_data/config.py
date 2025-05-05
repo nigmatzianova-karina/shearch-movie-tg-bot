@@ -10,5 +10,10 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 RAPID_API_KEY = os.getenv("RAPID_API_KEY")
 DEFAULT_COMMANDS = (
     ("start", "Запустить бота"),
-    ("help", "Вывести справку")
+    ("help", "Вывести справку"),
+    ("movie_search", "Поиск по названию"),
+    ("movie_by_rating", "Поиск по рейтингу"),
+    ("movie_by_budget", "Поиск по бюджету"),
+    ("history", "История поиска"),
 )
+
